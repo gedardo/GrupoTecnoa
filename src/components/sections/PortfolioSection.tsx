@@ -4,7 +4,7 @@ import { portfolioItems } from '../../data/portfolio';
 import Card from '../ui/Card';
 import AnimatedElement from '../ui/AnimatedElement';
 
-type PortfolioCategory = 'all' | 'web' | 'app' | 'marketing' | 'infrastructure';
+type PortfolioCategory = 'all' | 'web' | 'app' | 'infrastructure';
 
 const PortfolioSection = () => {
   const [activeCategory, setActiveCategory] = useState<PortfolioCategory>('all');
@@ -14,7 +14,6 @@ const PortfolioSection = () => {
     { id: 'all', label: 'Todos' },
     { id: 'web', label: 'Desarrollo Web' },
     { id: 'app', label: 'Aplicaciones' },
-    { id: 'marketing', label: 'Marketing' },
     { id: 'infrastructure', label: 'Infraestructura' }
   ];
 
@@ -76,8 +75,8 @@ const PortfolioSection = () => {
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                     <span className="text-xs font-semibold uppercase tracking-wider bg-primary-600 px-2 py-1 rounded-full">
                       {item.category === 'web' ? 'Desarrollo Web' :
-                      item.category === 'app' ? 'Aplicaciones' :
-                      item.category === 'marketing' ? 'Marketing' : 'Infraestructura'}
+                       item.category === 'app' ? 'Aplicaciones' :
+                       item.category === 'infrastructure' ? 'Infraestructura' : ''}
                     </span>
                     <h3 className="text-xl font-bold mt-2">{item.title}</h3>
                     <p className="text-gray-200 text-sm mt-1">{item.client}</p>
@@ -117,7 +116,7 @@ const PortfolioSection = () => {
                       <span className="text-xs font-semibold uppercase tracking-wider bg-primary-600 text-white px-2 py-1 rounded-full">
                         {portfolioItems.find(item => item.id === selectedItem)?.category === 'web' ? 'Desarrollo Web' :
                          portfolioItems.find(item => item.id === selectedItem)?.category === 'app' ? 'Aplicaciones' :
-                         portfolioItems.find(item => item.id === selectedItem)?.category === 'marketing' ? 'Marketing' : 'Infraestructura'}
+                         portfolioItems.find(item => item.id === selectedItem)?.category === 'infrastructure' ? 'Infraestructura' : ''}
                       </span>
                       <span className="text-sm text-gray-600 dark:text-gray-400">
                         Cliente: {portfolioItems.find(item => item.id === selectedItem)?.client}

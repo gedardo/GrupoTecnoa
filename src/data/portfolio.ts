@@ -10,18 +10,18 @@ export interface PortfolioItem {
   results: string;
   technologies: string[];
 }
-import ecom from '../assets/e-com.webp'
-import logist from '../assets//logist.jpeg'
-import mark from '../assets/mark.webp'
+import ecom from '../assets/sonotech.png'
+import logist from '../assets/nachowood.png'
+import mark from '../assets/radio360.png'
 import infra from '../assets/infra.webp'
-import edu from '../assets/edu.webp'
-import hospit from '../assets/hspit.webp'
+import edu from '../assets/invsys.png'
+import hospit from '../assets/ssigma.png'
 
 export const portfolioItems: PortfolioItem[] = [
   {
     id: 1,
-    title: 'Plataforma E-commerce',
-    client: 'MercadoFácil',
+    title: 'Plataforma Web E-commerce',
+    client: 'Sonotech',
     category: 'web',
     image: ecom,
     description: 'Desarrollo de una plataforma de e-commerce completa con múltiples métodos de pago y gestión de inventario.',
@@ -33,7 +33,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: 2,
     title: 'Aplicación de Gestión Logística',
-    client: 'TransporTech',
+    client: 'Nachowood',
     category: 'app',
     image: logist,
     description: 'Aplicación móvil para gestión de flotas, seguimiento de envíos y optimización de rutas en tiempo real.',
@@ -45,7 +45,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: 3,
     title: 'Campaña Digital Multicanal',
-    client: 'NutriBio',
+    client: 'Radio360',
     category: 'marketing',
     image: mark,
     description: 'Estrategia integral de marketing digital para el lanzamiento de una nueva línea de productos orgánicos.',
@@ -69,7 +69,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: 5,
     title: 'Portal Educativo Interactivo',
-    client: 'EduFuturo',
+    client: 'InvSys',
     category: 'web',
     image: edu,
     description: 'Plataforma de e-learning con contenido interactivo, evaluaciones automáticas y seguimiento personalizado de estudiantes.',
@@ -81,7 +81,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: 6,
     title: 'Sistema de Gestión Hospitalaria',
-    client: 'MediSalud',
+    client: 'Ssigma',
     category: 'app',
     image: hospit,
     description: 'Software integral para la gestión de procesos hospitalarios, historias clínicas electrónicas y programación de citas.',

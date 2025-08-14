@@ -3,7 +3,7 @@ import { services } from '../../data/services';
 import Card from '../ui/Card';
 import AnimatedElement from '../ui/AnimatedElement';
 
-type ServiceCategory = 'all' | 'web' | 'marketing' | 'infrastructure' | 'support';
+type ServiceCategory = 'all' | 'web' | 'infrastructure' | 'support';
 
 const ServicesSection = () => {
   const [activeCategory, setActiveCategory] = useState<ServiceCategory>('all');
@@ -11,7 +11,6 @@ const ServicesSection = () => {
   const categories = [
     { id: 'all', label: 'Todos' },
     { id: 'web', label: 'Desarrollo Web & Apps' },
-    { id: 'marketing', label: 'Marketing Digital' },
     { id: 'infrastructure', label: 'Infraestructura' },
     { id: 'support', label: 'Soporte & Formación' }
   ];

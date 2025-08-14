@@ -18,7 +18,7 @@ export interface Service {
   icon: typeof Globe;
   title: string;
   description: string;
-  category: 'web' | 'marketing' | 'infrastructure' | 'support';
+  category: 'web' | 'infrastructure' | 'support';
 }
 
 export const services: Service[] = [
@@ -38,69 +38,55 @@ export const services: Service[] = [
   },
   {
     id: 3,
-    icon: LineChart,
-    title: 'Marketing Digital',
-    description: 'Implementamos estrategias completas que incluyen SEO, SEM, redes sociales y email marketing para aumentar tu visibilidad online.',
-    category: 'marketing'
-  },
-  {
-    id: 4,
-    icon: FileSearch,
-    title: 'Analítica Web',
-    description: 'Analizamos el comportamiento de tus usuarios para optimizar la conversión y mejorar la experiencia de usuario en tu plataforma.',
-    category: 'marketing'
-  },
-  {
-    id: 5,
     icon: Wifi,
     title: 'Redes Corporativas',
     description: 'Diseñamos e implementamos infraestructuras de red seguras, escalables y de alto rendimiento para entornos empresariales.',
     category: 'infrastructure'
   },
   {
-    id: 6,
+    id: 4,
     icon: ShieldCheck,
     title: 'Seguridad Informática',
     description: 'Protegemos tu negocio con soluciones de ciberseguridad avanzadas, auditorías de seguridad y planes de recuperación ante desastres.',
     category: 'infrastructure'
   },
   {
-    id: 7,
+    id: 5,
     icon: Server,
     title: 'Servidores y Hosting',
     description: 'Ofrecemos servicios de alojamiento optimizados, administración de servidores y soluciones de almacenamiento en la nube.',
     category: 'infrastructure'
   },
   {
-    id: 8,
+    id: 6,
     icon: Cloud,
     title: 'Soluciones Cloud',
     description: 'Migramos tu infraestructura a la nube para mejorar la escalabilidad, reducir costos y aumentar la eficiencia operativa.',
     category: 'infrastructure'
   },
   {
-    id: 9,
+    id: 7,
     icon: Laptop,
     title: 'Soporte Técnico',
     description: 'Brindamos asistencia remota y presencial para resolver incidencias y mantener tus sistemas funcionando sin interrupciones.',
     category: 'support'
   },
   {
-    id: 10,
+    id: 8,
     icon: Users,
     title: 'Capacitación',
     description: 'Formamos a tu equipo con talleres y cursos personalizados sobre las últimas tecnologías y mejores prácticas del sector.',
     category: 'support'
   },
   {
-    id: 11,
+    id: 9,
     icon: HeartHandshake,
     title: 'Consultoría IT',
     description: 'Asesoramos en la planificación estratégica de tecnología para alinear tus recursos informáticos con los objetivos de negocio.',
     category: 'support'
   },
   {
-    id: 12,
+    id: 10,
     icon: Clock,
     title: 'Mantenimiento Preventivo',
     description: 'Realizamos revisiones periódicas de tus sistemas para prevenir fallos y asegurar un funcionamiento óptimo continuo.',
