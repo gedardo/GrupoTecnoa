@@ -13,7 +13,7 @@ const PortfolioSection = () => {
   const categories = [
     { id: 'all', label: 'Todos' },
     { id: 'web', label: 'Desarrollo Web' },
-    { id: 'app', label: 'Aplicaciones' },
+    { id: 'app', label: 'E-Commerce' },
     { id: 'infrastructure', label: 'Infraestructura' }
   ];
 
@@ -75,7 +75,7 @@ const PortfolioSection = () => {
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
                     <span className="text-xs font-semibold uppercase tracking-wider bg-primary-600 px-2 py-1 rounded-full">
                       {item.category === 'web' ? 'Desarrollo Web' :
-                       item.category === 'app' ? 'Aplicaciones' :
+                       item.category === 'app' ? 'E-Commerce' :
                        item.category === 'infrastructure' ? 'Infraestructura' : ''}
                     </span>
                     <h3 className="text-xl font-bold mt-2">{item.title}</h3>
@@ -115,7 +115,7 @@ const PortfolioSection = () => {
                     <div className="flex flex-wrap items-center gap-2 mb-4">
                       <span className="text-xs font-semibold uppercase tracking-wider bg-primary-600 text-white px-2 py-1 rounded-full">
                         {portfolioItems.find(item => item.id === selectedItem)?.category === 'web' ? 'Desarrollo Web' :
-                         portfolioItems.find(item => item.id === selectedItem)?.category === 'app' ? 'Aplicaciones' :
+                         portfolioItems.find(item => item.id === selectedItem)?.category === 'app' ? 'E-Commerce' :
                          portfolioItems.find(item => item.id === selectedItem)?.category === 'infrastructure' ? 'Infraestructura' : ''}
                       </span>
                       <span className="text-sm text-gray-600 dark:text-gray-400">
