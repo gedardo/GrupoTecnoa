@@ -30,7 +30,6 @@ const Footer = () => {
       links: [
         { label: 'Desarrollo Web', href: '#servicios' },
         { label: 'Aplicaciones Móviles', href: '#servicios' },
-        { label: 'Marketing Digital', href: '#servicios' },
         { label: 'Infraestructura de Red', href: '#servicios' },
         { label: 'Soporte Técnico', href: '#servicios' },
       ],
@@ -42,7 +41,6 @@ const Footer = () => {
         { label: 'Nuestro Equipo', href: '#' },
         { label: 'Carreras', href: '#' },
         { label: 'Testimonios', href: '#beneficios' },
-        { label: 'Blog', href: '#' },
       ],
     },
     {
@@ -50,7 +48,6 @@ const Footer = () => {
       links: [
         { label: 'Documentación', href: '#' },
         { label: 'Guías', href: '#' },
-        { label: 'Preguntas Frecuentes', href: '#' },
         { label: 'Soporte', href: '#' },
         { label: 'Contacto', href: '#contacto' },
       ],

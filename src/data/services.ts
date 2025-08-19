@@ -84,12 +84,5 @@ export const services: Service[] = [
     title: 'Consultoría IT',
     description: 'Asesoramos en la planificación estratégica de tecnología para alinear tus recursos informáticos con los objetivos de negocio.',
     category: 'support'
-  },
-  {
-    id: 10,
-    icon: Clock,
-    title: 'Mantenimiento Preventivo',
-    description: 'Realizamos revisiones periódicas de tus sistemas para prevenir fallos y asegurar un funcionamiento óptimo continuo.',
-    category: 'support'
   }
 ];
