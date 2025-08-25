@@ -103,7 +103,7 @@ const ContactSection = () => {
       return;
     }
 
-    const phoneNumber = '+5493814451306'; // Replace with your actual WhatsApp business number
+    const phoneNumber = '+5493813418908'; // Replace with your actual WhatsApp business number
     const message = `*Nuevo mensaje de contacto*%0A%0A` +
       `*Nombre:* ${formData.name}%0A` +
       `*Email:* ${formData.email}%0A` +
@@ -156,8 +156,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Teléfono</h4>
-                    <a href="tel:+5493814451306" className="text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                      +54 93814451306
+                    <a href="tel:+5493813418908" className="text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                      +54 93813418908 
                     </a>
                   </div>
                 </div>
@@ -168,8 +168,8 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">WhatsApp</h4>
-                    <a href="https://wa.me/5493814451306" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
-                      +54 93814451306
+                    <a href="https://wa.me/5493813418908" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                      +54 93813418908
                     </a>
                   </div>
                 </div>

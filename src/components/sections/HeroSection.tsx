@@ -20,7 +20,7 @@ const slides = [
   {
     id: 3,
     image: slider3,
-    title: 'Expertos en Desarrollo y Marketing Digital',
+    title: 'Expertos en Desarrollo y Aplicaciones',
     subtitle: 'Creamos experiencias digitales que generan resultados'
   }
 ];
